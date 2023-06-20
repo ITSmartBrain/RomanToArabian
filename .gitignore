@@ -1,5 +1,17 @@
-.idea
-*.iml
-*.xml
-out
-target
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner snr = new Scanner(System.in);
+
+        System.out.println("введите цифры");
+
+        int a = snr.nextInt();
+        int b = snr.nextInt();
+        System.out.println(a + "+" + b + "=" + (a + b));
+        }
+    }
+
